@@ -17,3 +17,9 @@ donn:python a rdfs:Class ;
     rdfs:comment "manipulation des données" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+donn:rapidminer a rdfs:Class ;
+    rdfs:label "rapidminer" ;
+    rdfs:comment "minage des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
