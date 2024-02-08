@@ -9,5 +9,10 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/fup8> a owl:Ontology ;
-    dcterms:title "Formation Université Paris 8" .
+<https://jardindesconnaissances.univ-paris8.fr/onto/donn> a owl:Ontology ;
+    dcterms:title "application data mining" .
+
+donn:python a rdfs:Class ;
+    rdfs:label "python" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
