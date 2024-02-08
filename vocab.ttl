@@ -8,3 +8,6 @@
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/fup8> a owl:Ontology ;
+    dcterms:title "Formation Université Paris 8" .
