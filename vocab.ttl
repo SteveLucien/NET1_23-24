@@ -10,9 +10,10 @@
 @prefix schema: <http://schema.org/>.
 
 <https://jardindesconnaissances.univ-paris8.fr/onto/donn> a owl:Ontology ;
-    dcterms:title "application data mining" .
+    dcterms:title "app data mining" .
 
 donn:python a rdfs:Class ;
     rdfs:label "python" ;
+    rdfs:comment "manipulation des données" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
