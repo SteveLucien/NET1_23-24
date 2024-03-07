@@ -78,6 +78,12 @@ donn:octoparse a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+donn:hexomatic a rdfs:Class ;
+    rdfs:label "hexomatic" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:extractiondedonnees a rdf:Property ;
     rdfs:label "extractiondedonnées" ;
     rdfs:domain o:Resource ;
