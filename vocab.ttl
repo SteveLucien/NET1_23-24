@@ -24,8 +24,56 @@ donn:rapidminer a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:datamining a rdf:Property ;
-    rdfs:label "datamining" ;
+donn:knime a rdfs:Class ;
+    rdfs:label "knime" ;
+    rdfs:comment "minage des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:sisense a rdfs:Class ;
+    rdfs:label "sisense" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:brightdata a rdfs:Class ;
+    rdfs:label "brightdata" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:extractiondedonnées a rdf:Property ;
+    rdfs:label "extractiondedonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+fup8:visualisationdedonnées a rdf:Property ;
+    rdfs:label "visualisationdedonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+fup8:saisiededonnées a rdf:Property ;
+    rdfs:label "saisiededonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+fup8:transfertdedonnées a rdf:Property ;
+    rdfs:label "transfertdedonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+fup8:importationdedonnées a rdf:Property ;
+    rdfs:label "importationdedonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+fup8:exportationdedonnées a rdf:Property ;
+    rdfs:label "exportationdedonnées" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
