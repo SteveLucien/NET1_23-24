@@ -119,3 +119,33 @@ donn:exportationdedonees a rdf:Property ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
+
+donn:analysevisuelle a rdf:Property ;
+    rdfs:label "analysevisuelle" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:analysestatistique a rdf:Property ;
+    rdfs:label "analysevisuelle" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:modelisationpredictive a rdf:Property ;
+    rdfs:label "modelisationpredictive" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:fouilledetext a rdf:Property ;
+    rdfs:label "fouilledetext" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:tableaudebord a rdf:Property ;
+    rdfs:label "tableaudebord" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
