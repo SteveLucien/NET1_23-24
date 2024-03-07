@@ -42,37 +42,37 @@ donn:brightdata a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:extractiondedonnées a rdf:Property ;
+donn:extractiondedonnees a rdf:Property ;
     rdfs:label "extractiondedonnées" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-fup8:visualisationdedonnées a rdf:Property ;
+donn:visualisationdedonnees a rdf:Property ;
     rdfs:label "visualisationdedonnées" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-fup8:saisiededonnées a rdf:Property ;
+donn:saisiededonnees a rdf:Property ;
     rdfs:label "saisiededonnées" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-fup8:transfertdedonnées a rdf:Property ;
+donn:transfertdedonnees a rdf:Property ;
     rdfs:label "transfertdedonnées" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-fup8:importationdedonnées a rdf:Property ;
+donn:importationdedonnees a rdf:Property ;
     rdfs:label "importationdedonnées" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-fup8:exportationdedonnées a rdf:Property ;
+donn:exportationdedonees a rdf:Property ;
     rdfs:label "exportationdedonnées" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
