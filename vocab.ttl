@@ -42,6 +42,42 @@ donn:brightdata a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+donn:xlstat a rdfs:Class ;
+    rdfs:label "xlstat" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:wolframmatematica a rdfs:Class ;
+    rdfs:label "wolframmatematica" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:alteryxdesigner a rdfs:Class ;
+    rdfs:label "alteryxdesigner" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:syncspider a rdfs:Class ;
+    rdfs:label "syncspider" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:grepsr a rdfs:Class ;
+    rdfs:label "grepsr" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:octoparse a rdfs:Class ;
+    rdfs:label "octoparse" ;
+    rdfs:comment "manipulation des données" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:extractiondedonnees a rdf:Property ;
     rdfs:label "extractiondedonnées" ;
     rdfs:domain o:Resource ;
