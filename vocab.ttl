@@ -23,3 +23,9 @@ donn:rapidminer a rdfs:Class ;
     rdfs:comment "minage des données" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+fup8:datamining a rdf:Property ;
+    rdfs:label "datamining" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
