@@ -42,6 +42,24 @@ donn:plateformegestiondonnees a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+donn:plateformeanalysedonnees a rdfs:Class ;
+    rdfs:label "plateformeanalysedonnees" ;
+    rdfs:comment "plateformeanalysedonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:plateformeextractiondonnees a rdfs:Class ;
+    rdfs:label "plateformeextractiondonnees" ;
+    rdfs:comment "plateformeextractiondonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:plateformecategorisationdonnees a rdfs:Class ;
+    rdfs:label "plateformecategorisationdonnees" ;
+    rdfs:comment "plateformecategorisationdonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:logicielanalysedonnees a rdfs:Class ;
     rdfs:label "logicielanalysedonnees" ;
     rdfs:comment "logicielanalysedonnees" ;
