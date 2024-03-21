@@ -108,6 +108,12 @@ donn:siteinformationdatamining a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+donn:fonctionnalitesoutilsdataminings a rdfs:Class ;
+    rdfs:label "fonctionnalitesoutilsdataminings" ;
+    rdfs:comment "fonctionnalitesoutilsdataminings" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:extractiondedonnees a rdf:Property ;
     rdfs:label "extractiondedonnées" ;
     rdfs:domain o:Resource ;
