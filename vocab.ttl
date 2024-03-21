@@ -12,78 +12,6 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/donn> a owl:Ontology ;
     dcterms:title "app data mining" .
 
-donn:python a rdfs:Class ;
-    rdfs:label "python" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:rapidminer a rdfs:Class ;
-    rdfs:label "rapidminer" ;
-    rdfs:comment "minage des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:knime a rdfs:Class ;
-    rdfs:label "knime" ;
-    rdfs:comment "minage des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:sisense a rdfs:Class ;
-    rdfs:label "sisense" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:brightdata a rdfs:Class ;
-    rdfs:label "brightdata" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:xlstat a rdfs:Class ;
-    rdfs:label "xlstat" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:wolframmatematica a rdfs:Class ;
-    rdfs:label "wolframmatematica" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:alteryxdesigner a rdfs:Class ;
-    rdfs:label "alteryxdesigner" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:syncspider a rdfs:Class ;
-    rdfs:label "syncspider" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:grepsr a rdfs:Class ;
-    rdfs:label "grepsr" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:octoparse a rdfs:Class ;
-    rdfs:label "octoparse" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-donn:hexomatic a rdfs:Class ;
-    rdfs:label "hexomatic" ;
-    rdfs:comment "manipulation des données" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
 donn:applicationdatamining a rdfs:Class ;
     rdfs:label "applicationdatamining" ;
     rdfs:comment "liste des donnees" ;
@@ -108,9 +36,9 @@ donn:logicieldataming a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-donn:plateformegererdonnees a rdfs:Class ;
-    rdfs:label "plateformegererdonnees" ;
-    rdfs:comment "plateformegererdonnees" ;
+donn:plateformegestiondonnees a rdfs:Class ;
+    rdfs:label "plateformegestiondonnees" ;
+    rdfs:comment "plateformegestiondonnees" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -174,8 +102,20 @@ donn:plateformeextractiondonnees a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+donn:siteinformationdatamining a rdfs:Class ;
+    rdfs:label "siteinformationdatamining" ;
+    rdfs:comment "siteinformationdatamining" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:extractiondedonnees a rdf:Property ;
     rdfs:label "extractiondedonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:informationoutildatamining a rdf:Property ;
+    rdfs:label "informationoutildatamining" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
@@ -224,6 +164,120 @@ donn:analysestatistique a rdf:Property ;
 
 donn:modelisationpredictive a rdf:Property ;
     rdfs:label "modelisationpredictive" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:integrationdedonnees a rdf:Property ;
+    rdfs:label "integrationdedonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:nettoyagedesdonnees a rdf:Property ;
+    rdfs:label "nettoyagedesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:transformationdesdonnees a rdf:Property ;
+    rdfs:label "transformationdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:explorationdesdonnees a rdf:Property ;
+    rdfs:label "explorationdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:identificationdestendances a rdf:Property ;
+    rdfs:label "identificationdestendances" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:classificationdesdonnees a rdf:Property ;
+    rdfs:label "classificationdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:segmentationdesdonnees a rdf:Property ;
+    rdfs:label "segmentationdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:detectionanomaliesdesdonnees a rdf:Property ;
+    rdfs:label "detectionanomaliesdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:recommandationdesdonnees a rdf:Property ;
+    rdfs:label "recommandationdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:optimisationdesdonnees a rdf:Property ;
+    rdfs:label "optimisationdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:suividesdonnees a rdf:Property ;
+    rdfs:label "suividesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:surveillancedesdonnees a rdf:Property ;
+    rdfs:label "surveillancedesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:analysedesdonneesreseauxsociaux a rdf:Property ;
+    rdfs:label "analysedesdonneesreseauxsociaux" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:analysedesdonneespublicitaire rdf:Property ;
+    rdfs:label "analysedesdonneespublicitaire" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:identificationdesprospectsfroid rdf:Property ;
+    rdfs:label "identificationdesprospectsfroid" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:identificationdesprospectschaud rdf:Property ;
+    rdfs:label "identificationdesprospectschaud" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:categorisationdesprospectsfroid rdf:Property ;
+    rdfs:label "categorisationdesprospectsfroid" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:categorisationdesprospectschaud rdf:Property ;
+    rdfs:label "categorisationdesprospectschaud" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:analysedesperformances rdf:Property ;
+    rdfs:label "analysedesperformances" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
