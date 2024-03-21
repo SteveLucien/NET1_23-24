@@ -18,7 +18,19 @@ donn:applicationdatamining a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+donn:applicationdataminingperformance a rdfs:Class ;
+    rdfs:label "applicationdataminingperformance" ;
+    rdfs:comment "liste des donnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:outilanalysedata a rdfs:Class ;
+    rdfs:label "outilanalysedata" ;
+    rdfs:comment "outilanalysedata" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:outilanalysedataperformance a rdfs:Class ;
     rdfs:label "outilanalysedata" ;
     rdfs:comment "outilanalysedata" ;
     rdfs:domain o:Resource ;
@@ -96,6 +108,18 @@ donn:servicedescraping a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+donn:logicieldescraping a rdfs:Class ;
+    rdfs:label "logicieldescraping" ;
+    rdfs:comment "logicieldescraping" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:outildescraping a rdfs:Class ;
+    rdfs:label "outildescraping" ;
+    rdfs:comment "outildescraping" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:plateformeautomatisation a rdfs:Class ;
     rdfs:label "plateformeautomatisation" ;
     rdfs:comment "plateformeautomatisation" ;
@@ -146,6 +170,24 @@ donn:informationoutildatamining a rdf:Property ;
 
 donn:visualisationdedonnees a rdf:Property ;
     rdfs:label "visualisationdedonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:materialisationdesdonnees a rdf:Property ;
+    rdfs:label "materialisationdesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:supervisiondesdonnees a rdf:Property ;
+    rdfs:label "supervisiondesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:clarificationdesdonnees a rdf:Property ;
+    rdfs:label "clarificationdesdonnees" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
@@ -258,8 +300,20 @@ donn:suividesdonnees a rdf:Property ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
+donn:suividesperformances a rdf:Property ;
+    rdfs:label "suividesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
 donn:surveillancedesdonnees a rdf:Property ;
     rdfs:label "surveillancedesdonnees" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
+donn:surveillancedesdonneesvisuelle a rdf:Property ;
+    rdfs:label "surveillancedesdonneesvisuelle" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
@@ -306,14 +360,20 @@ donn:analysedesperformances a rdf:Property ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
+donn:analysedesqualites a rdf:Property ;
+    rdfs:label "analysedesperformancesqualites" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
+    vs:term_status "experimental" .
+
 donn:fouilledetext a rdf:Property ;
     rdfs:label "fouilledetext" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-donn:tableaudebord a rdf:Property ;
-    rdfs:label "tableaudebord" ;
+donn:tableaudeborddesdonnees a rdf:Property ;
+    rdfs:label "tableaudeborddesdonnees" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
