@@ -270,37 +270,37 @@ donn:analysedesdonneesreseauxsociaux a rdf:Property ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-donn:analysedesdonneespublicitaire rdf:Property ;
+donn:analysedesdonneespublicitaire a rdf:Property ;
     rdfs:label "analysedesdonneespublicitaire" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-donn:identificationdesprospectsfroid rdf:Property ;
+donn:identificationdesprospectsfroid a rdf:Property ;
     rdfs:label "identificationdesprospectsfroid" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-donn:identificationdesprospectschaud rdf:Property ;
+donn:identificationdesprospectschaud a rdf:Property ;
     rdfs:label "identificationdesprospectschaud" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-donn:categorisationdesprospectsfroid rdf:Property ;
+donn:categorisationdesprospectsfroid a rdf:Property ;
     rdfs:label "categorisationdesprospectsfroid" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-donn:categorisationdesprospectschaud rdf:Property ;
+donn:categorisationdesprospectschaud a rdf:Property ;
     rdfs:label "categorisationdesprospectschaud" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
-donn:analysedesperformances rdf:Property ;
+donn:analysedesperformances a rdf:Property ;
     rdfs:label "analysedesperformances" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
