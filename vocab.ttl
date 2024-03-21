@@ -84,12 +84,6 @@ donn:hexomatic a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-donn:extractiondedonnees a rdf:Property ;
-    rdfs:label "extractiondedonnées" ;
-    rdfs:domain o:Resource ;
-    owl:sameAs "ov:semester" ;
-    vs:term_status "experimental" .
-
 donn:applicationdatamining a rdfs:Class ;
     rdfs:label "applicationdatamining" ;
     rdfs:comment "liste des donnees" ;
@@ -103,8 +97,8 @@ donn:outilanalysedata a rdfs:Class ;
     vs:term_status "experimental" .
 
 donn:outilextractiondonnees a rdfs:Class ;
-    rdfs:label "outilanalysedata" ;
-    rdfs:comment "outilanalysedata" ;
+    rdfs:label "outilextractiondonnees" ;
+    rdfs:comment "outilextractiondonnees" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -118,6 +112,72 @@ donn:plateformegererdonnees a rdfs:Class ;
     rdfs:label "plateformegererdonnees" ;
     rdfs:comment "plateformegererdonnees" ;
     rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicielanalysedonnees a rdfs:Class ;
+    rdfs:label "logicielanalysedonnees" ;
+    rdfs:comment "logicielanalysedonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicielbusinessanalyse a rdfs:Class ;
+    rdfs:label "logicielbusinessanalyse" ;
+    rdfs:comment "logicielbusinessanalyse" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicielexcelstats a rdfs:Class ;
+    rdfs:label "logicielexcelstats" ;
+    rdfs:comment "logicielexcelstats" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicielextractiondonnees a rdfs:Class ;
+    rdfs:label "logicielextractiondonnees" ;
+    rdfs:comment "logicielextractiondonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicielcollecteurdedonnees a rdfs:Class ;
+    rdfs:label "logicielcollecteurdedonnees" ;
+    rdfs:comment "logicielcollecteurdedonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:servicedescraping a rdfs:Class ;
+    rdfs:label "servicedescraping" ;
+    rdfs:comment "servicedescraping" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:plateformeautomatisation a rdfs:Class ;
+    rdfs:label "plateformeautomatisation" ;
+    rdfs:comment "plateformeautomatisation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicielanalysepredictivededonnees a rdfs:Class ;
+    rdfs:label "logicielanalysepredictivededonnees" ;
+    rdfs:comment "logicielanalysepredictivededonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicielanalyseaudience a rdfs:Class ;
+    rdfs:label "logicielanalyseaudience" ;
+    rdfs:comment "logicielanalyseaudience" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:plateformeextractiondonnees a rdfs:Class ;
+    rdfs:label "plateformeextractiondonnees" ;
+    rdfs:comment "plateformeextractiondonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:extractiondedonnees a rdf:Property ;
+    rdfs:label "extractiondedonnées" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
 donn:visualisationdedonnees a rdf:Property ;
