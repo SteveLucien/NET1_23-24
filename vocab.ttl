@@ -90,6 +90,36 @@ donn:extractiondedonnees a rdf:Property ;
     owl:sameAs "ov:semester" ;
     vs:term_status "experimental" .
 
+donn:applicationdatamining a rdfs:Class ;
+    rdfs:label "applicationdatamining" ;
+    rdfs:comment "liste des donnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:outilanalysedata a rdfs:Class ;
+    rdfs:label "outilanalysedata" ;
+    rdfs:comment "outilanalysedata" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:outilextractiondonnees a rdfs:Class ;
+    rdfs:label "outilanalysedata" ;
+    rdfs:comment "outilanalysedata" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:logicieldataming a rdfs:Class ;
+    rdfs:label "logicieldataming" ;
+    rdfs:comment "logicieldataming" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+donn:plateformegererdonnees a rdfs:Class ;
+    rdfs:label "plateformegererdonnees" ;
+    rdfs:comment "plateformegererdonnees" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 donn:visualisationdedonnees a rdf:Property ;
     rdfs:label "visualisationdedonnées" ;
     rdfs:domain o:Resource ;
